@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj"/>
+    <RESFILES value="Project1.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dclocx.bpi bcb2kaxserver.bpi bcbie.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="D:\11Syrop\2006_11_30\sekundnik;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Program Files\Borland\CBuilder6\Indy\C6&quot;"/>
+    <LIBPATH value="D:\11Syrop\2006_11_30\sekundnik;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\;$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\jcl\lib\c6\obj&quot;;&quot;C:\Program Files\Borland\jvcl\lib\c6\obj&quot;;&quot;C:\Program Files\Borland\jcl\lib\C6&quot;;&quot;C:\Program Files\Borland\jvcl\common&quot;;&quot;C:\Program Files\Borland\jvcl\lib\C6&quot;;&quot;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6&quot;;$(BCB)\Lib\Obj;&quot;C:\Program Files\Borland\CBuilder6\Indy\C6&quot;"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1045
+CodePage=1250
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Projects\Bpl\JvGlobusC6D.bpl=JVCL Globus Components
+
+[HistoryLists\hlIncludePath]
+Count=9
+Item0=C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item1=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\jvcl\source;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\JCL\source;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item4=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Indy\Source
+Item5=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\jvcl\source;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\JCL\source;C:\Program Files\Borland\CBuilder6\Indy\Source
+Item6=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\jvcl\source;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\jvcl\source;C:\Program Files\Borland\CBuilder6\JCL\source;C:\Program Files\Borland\CBuilder6\Indy\Source
+Item7=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\jvcl\source;$(BCB)\include;$(BCB)\include\vcl
+Item8=$(BCB)\jvcl\source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=11
+Item0=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;C:\Program Files\Borland\jcl\lib\c6\obj;C:\Program Files\Borland\jvcl\lib\c6\obj;C:\Program Files\Borland\jcl\lib\C6;C:\Program Files\Borland\jvcl\common;C:\Program Files\Borland\jvcl\lib\C6;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6;$(BCB)\Lib\Obj;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item1=$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;C:\Program Files\Borland\jcl\lib\c6\obj;C:\Program Files\Borland\jvcl\lib\c6\obj;C:\Program Files\Borland\jcl\lib\C6;C:\Program Files\Borland\jvcl\common;C:\Program Files\Borland\jvcl\lib\C6;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6;$(BCB)\Lib\Obj;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item2=$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;C:\Program Files\Borland\jcl\lib\c6\obj;C:\Program Files\Borland\jvcl\lib\c6\obj;C:\Program Files\Borland\jcl\lib\C6;C:\Program Files\Borland\jvcl\common;C:\Program Files\Borland\jvcl\lib\C6;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6;$(BCB)\Lib\Obj
+Item3=$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;C:\Program Files\Borland\jcl\lib\c6\obj;C:\Program Files\Borland\jvcl\lib\c6\obj;C:\Program Files\Borland\jcl\lib\C6;C:\Program Files\Borland\jvcl\common;C:\Program Files\Borland\jvcl\lib\C6;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6;$(BCB)\Projects\Lib\Obj
+Item4=$(BCB)\Lib;$(BCB)\Bin;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\Projects\Lib;C:\Program Files\Borland\jcl\lib\c6\obj;C:\Program Files\Borland\jvcl\lib\c6\obj;C:\Program Files\Borland\jcl\lib\C6;C:\Program Files\Borland\jvcl\common;C:\Program Files\Borland\jvcl\lib\C6;C:\Program Files\Borland\CBuilder6\GLScene\lib\bcb6
+Item5=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\Projects\Lib;$(BCB)\jvcl\lib6;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\JCL\dcu;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item6=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\Projects\Lib;$(BCB)\jvcl\lib6;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\jvcl\lib6;C:\Program Files\Borland\CBuilder6\JCL\dcu;C:\Program Files\Borland\CBuilder6\Indy\C6
+Item7=C:\Program Files\Borland\CBuilder6\Projects;D:\;$(BCB)\Projects\Lib;$(BCB)\jvcl\lib6;..\indy\c6;$(BCB)\lib\obj;$(BCB)\lib
+Item8=$(BCB)\Projects\Lib;$(BCB)\jvcl\lib6;..\indy\c6;$(BCB)\lib\obj;$(BCB)\lib
+Item9=$(BCB)\Projects\Lib;$(BCB)\jvcl\source;..\indy\c6;$(BCB)\lib\obj;$(BCB)\lib
+Item10=..\indy\c6;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>
